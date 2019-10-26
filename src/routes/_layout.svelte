@@ -13,10 +13,13 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+	.test {
+		color: red;
+	}
 </style>
 
 <Nav {segment}/>
 
-<main>
-	<slot></slot>
+<main class="test">
+	<slot>Demo</slot>
 </main>
