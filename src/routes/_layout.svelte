@@ -20,6 +20,6 @@
 
 <Nav {segment}/>
 
-<main class="test">
-	<slot>Demo</slot>
+<main>
+	<slot></slot>
 </main>
